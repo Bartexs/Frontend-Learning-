@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 @font-face {
     font-family: "Booter - Zero Zero";
@@ -83,4 +84,21 @@ html, body {
     /*sets max width and center it with spaces left and right*/
     max-width: 900px;
     margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float: left;
+    height: 250px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 75%;
 }
